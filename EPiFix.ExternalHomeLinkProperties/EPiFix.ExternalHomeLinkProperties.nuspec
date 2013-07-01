@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>EPiFix.ExternalHomeLinkProperties</id>
+        <version>1.0</version>
+        <authors>Pavel Nezhencev</authors>
+        <projectUrl>https://github.com/whyleee/EPiFix.ExternalHomeLinkProperties</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Fix for EPiServer link item properties window: when external URL is set and it equals to one of configured hostnames for EPiServer site - you have an exception.</description>
+        <tags>EPiServer link item properties external URL hostname crash fix</tags>
+        <dependencies>
+            <dependency id="EPiServer.CMS.Core" version="7.0.586.1" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+            <frameworkAssembly assemblyName="System" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="net45\EPiFix.ExternalHomeLinkProperties.dll" target="lib\net45\EPiFix.ExternalHomeLinkProperties.dll" />
+    </files>
+</package>
